@@ -1,7 +1,10 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  // Allow fetching Medium RSS feed from external origin
+  async headers() {
+    return [];
+  },
 };
 
 export default nextConfig;

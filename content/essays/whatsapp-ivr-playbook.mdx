@@ -1,0 +1,98 @@
+---
+title: "How We Built a ₹120 Cr Channel with WhatsApp and IVR"
+date: "2025-10-15"
+excerpt: "A pilot that most people would have killed after quarter one. Six quarters later, it was 17% of D2C sales. Here's the actual playbook."
+tags: ["Automation", "Growth", "Playbook"]
+readTime: "8 min read"
+---
+
+In Q1 FY24, we ran a WhatsApp marketing pilot that converted at less than 1%.
+
+Most teams would have killed it. We didn't. Six quarters later, the IVR + WhatsApp marketing automation channel was contributing ₹120 Crore in Gross Written Premium — approximately 17% of all D2C sales at Star Health Insurance.
+
+This is the actual story of how that happened.
+
+---
+
+## Why we started
+
+D2C insurance has a structural problem: **most of your sales pipeline is people who didn't buy**.
+
+At any given point, Star Health's D2C database had millions of leads across different lifecycle stages — people who'd visited a landing page, started a quote, spoken to a sales agent, dropped off at payment. Each of these represented a real expression of intent. Most never converted.
+
+The traditional playbook: call centre outreach. A team of agents dialling sequentially, working through a list, pitching manually. This works — but it doesn't scale affordably, and it burns agent time on leads that have gone cold.
+
+The question we started with: **can we pre-warm these leads at scale, so that when an agent does call, conversion is meaningfully higher?**
+
+---
+
+## The first attempt (and why it failed)
+
+Our initial pilot was basic: a templated WhatsApp message sent to a segment of lapsed leads, with a policy renewal link. Open rates were reasonable. Click rates were poor. Conversions were almost zero.
+
+We nearly stopped there. The insight that changed our direction: **we were treating WhatsApp like email.**
+
+WhatsApp is a high-trust, high-intimacy channel. A cold, templated message from an insurance company reads like spam — no matter how good the copy is. The medium's strength is conversation, not broadcast.
+
+---
+
+## The architecture that worked
+
+We rebuilt the approach around a few core principles:
+
+**1. Sequence before dial.**
+The job of the WhatsApp/IVR sequence is not to close. It's to signal relevance, warm the lead, and make the subsequent call expected rather than cold. An agent calling after a lead has already seen their personalised renewal reminder converts at a meaningfully higher rate.
+
+**2. Trigger, don't batch.**
+Rather than weekly broadcast batches, we moved to lifecycle triggers. A lead that dropped off at the payment page gets a different journey from someone who last engaged 6 months ago. Dormant leads from 4–5 years back get a re-engagement sequence, not a renewal reminder.
+
+**3. IVR as a commitment device.**
+An IVR that asks the customer to "press 1 to confirm you'd like to discuss your renewal" does two things: it filters for intent, and it creates a micro-commitment that makes the subsequent call more likely to be answered.
+
+**4. Data signals as content.**
+We used propensity and affluence signals from data partners to inform which leads to prioritise, and to frame messages around their specific context — sum insured adequacy, add-on eligibility, product upgrade pathways.
+
+---
+
+## The metrics that mattered
+
+The traditional metrics for an automation channel (open rate, click rate) were not the ones we tracked most closely. The metrics that mattered:
+
+- **Dial efficiency:** Ratio of agent dials required per conversion, pre- vs. post-sequence
+- **Contact rate:** % of dials where the agent actually spoke to the customer
+- **L2S from warmed leads vs. cold:** Did the sequence actually lift conversion?
+- **GWP per automation-assisted sale:** Were we pulling forward lower-quality policies, or real premium?
+
+Quarter over quarter, the numbers moved. Not linearly — there were quarters where a template change broke performance, where a new product created confusion in the messaging, where WhatsApp Business API changes disrupted delivery. Each of these became a learning that went back into the system.
+
+By FY26, the channel was at 17% of D2C sales. The cost-per-policy from this channel was significantly below agent-only outreach.
+
+---
+
+## What the playbook actually requires
+
+Anyone reading this thinking "we should build this" should know: the hard part isn't the technology. Zoho, Salesforce, most capable CRMs can run drip journeys. WhatsApp Business API is accessible.
+
+The hard part is three things:
+
+**Data discipline.** The sequences only work if your lifecycle states are accurate. A customer who renewed two months ago getting a renewal reminder is a trust destroyer. Your CRM hygiene has to be real.
+
+**Feedback loops.** You need someone who can read the weekly performance data and translate it into messaging changes, sequence adjustments, segment refinements. This is not a set-it-and-run system. It's a learning system.
+
+**Cross-functional trust.** Marketing automation that feeds a sales team only works if the sales team believes in it. We spent time showing agents the data — which warmed leads convert better, why the sequence matters. Adoption follows understanding.
+
+---
+
+## The bigger point
+
+The ₹120 Cr number is the outcome. The more interesting thing is what building this channel revealed about how modern marketing should work.
+
+The old model: marketing generates leads, hands them to sales, hopes.
+
+The new model: marketing builds the system that changes what happens at every touchpoint between first intent and final conversion. The campaign is the smallest part of it.
+
+This is what marketing in the AI era actually means — not AI writing your copy, but AI-assisted sequencing, scoring, routing, learning. The judgment layer is still human. The execution layer can compound at a scale no team of humans can match.
+
+---
+
+*This essay describes work done at Star Health Insurance, 2023–2025. Specific numbers are approximate and have been rounded.*

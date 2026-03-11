@@ -59,11 +59,11 @@ export default async function Home() {
             letterSpacing: "-0.03em",
           }}
         >
-          Most marketing
+          Brand creates demand.
           <br />
-          is a campaign.
+          Systems convert it.
           <br />
-          <span style={{ color: "var(--accent)" }}>I build the machine.</span>
+          <span style={{ color: "var(--accent)" }}>I design both.</span>
         </h1>
 
         <p className="max-w-2xl text-lg leading-relaxed mb-10" style={{ color: "var(--text-muted)" }}>

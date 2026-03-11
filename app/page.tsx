@@ -12,18 +12,18 @@ const companies = ["Star Health", "OMD India", "Mindshare", "GroupM"];
 
 const sectionTeasers = [
   {
-    href: "/thinking",
-    tag: "THINKING",
-    title: "POV essays and published writing",
-    desc: "On AI in marketing, revenue systems, category building — from Medium and written here.",
-    cta: "Read the thinking",
-  },
-  {
     href: "/frameworks",
     tag: "FRAMEWORKS",
     title: "The mental models I build from",
     desc: "Full-funnel revenue systems, trust architecture, automation stacks — made explicit.",
     cta: "See the frameworks",
+  },
+  {
+    href: "/thinking",
+    tag: "THINKING",
+    title: "POV essays and published writing",
+    desc: "On AI in marketing, revenue systems, category building — from Medium and written here.",
+    cta: "Read the thinking",
   },
   {
     href: "/work",

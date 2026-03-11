@@ -4,7 +4,7 @@ import { getMediumPosts } from "@/lib/medium";
 const stats = [
   { value: "16", label: "Years" },
   { value: "₹120Cr", label: "Channel Built" },
-  { value: "9M+", label: "CRM Records" },
+  { value: "9M+", label: "Records Migrated" },
   { value: "₹200Cr", label: "Media Managed" },
 ];
 

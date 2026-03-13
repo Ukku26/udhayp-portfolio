@@ -67,8 +67,7 @@ export default async function Home() {
         </h1>
 
         <p className="max-w-2xl text-lg leading-relaxed mb-10" style={{ color: "var(--text-muted)" }}>
-          Marketing systems that drive compounding revenue across brand, funnel,
-          automation and AI — for high-trust, high-consideration categories.
+          Built for categories where trust takes months to earn and seconds to lose.
           BFSI · Healthcare · Retail.
         </p>
 

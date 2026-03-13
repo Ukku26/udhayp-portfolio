@@ -167,13 +167,13 @@ export default function WorkPage() {
       <div className="mb-16 p-8" style={{ border: "1px solid var(--border)", borderRadius: "2px" }}>
         <div className="flex items-start justify-between gap-6 flex-wrap">
           <div className="max-w-xl">
-            <p className="text-xs font-mono tracking-widest mb-4" style={{ color: "var(--text-muted)" }}>HOW AI READS MY CAREER</p>
-            <h2 className="font-black text-2xl mb-4" style={{ color: "var(--text-primary)", letterSpacing: "-0.02em" }}>An AI synthesised 16 years of my work.</h2>
+            <p className="text-xs font-mono tracking-widest mb-4" style={{ color: "var(--text-muted)" }}>ON SUPER.ME</p>
+            <h2 className="font-black text-2xl mb-4" style={{ color: "var(--text-primary)", letterSpacing: "-0.02em" }}>Where expertise is discovered through questions, not feeds.</h2>
             <p className="text-sm leading-relaxed mb-4" style={{ color: "var(--text-muted)" }}>
-              Super.me is an AI-powered professional profile that reads your career history and builds a synthesised view of who you are as a professional. I find it a useful mirror — it surfaces signal in noise, clarifies positioning, and often articulates patterns in my career that I take for granted.
+              Super.me is an AI-native professional network where professionals are found by what they know, not what they post. Instead of scrolling feeds, people ask questions — and get answers grounded in actual experience.
             </p>
             <p className="text-sm leading-relaxed mb-6" style={{ color: "var(--text-muted)" }}>
-              For a Head of Marketing in the AI era, knowing what AI sees when it reads your career is not a vanity exercise. It&apos;s a strategic one.
+              My profile covers 16 years across BFSI, healthcare and retail — agency and client side. Ask it about D2C funnels, marketing automation, brand strategy, or lifecycle systems.
             </p>
             <a href="https://www.superme.ai/udhayp" target="_blank" rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-5 py-2.5 font-semibold text-sm btn-accent-outline">
@@ -181,12 +181,12 @@ export default function WorkPage() {
             </a>
           </div>
           <div className="p-6 min-w-[200px]" style={{ background: "var(--surface)", border: "1px solid var(--border)", borderRadius: "2px" }}>
-            <p className="text-xs font-mono mb-4" style={{ color: "var(--text-muted)" }}>AI SUMMARY</p>
+            <p className="text-xs font-mono mb-4" style={{ color: "var(--text-muted)" }}>MY PROFILE</p>
             <p className="font-semibold text-sm mb-2" style={{ color: "var(--text-primary)" }}>Brand and Growth Leader</p>
             <p className="text-xs leading-relaxed" style={{ color: "var(--text-muted)" }}>
-              &ldquo;Generating demand and converting it into sustainable revenue. Early career: trusted brands through strategy and media. Recent: translating demand into customer confidence through integrated journeys and marketing systems.&rdquo;
+              Building high-trust categories across BFSI, Healthcare &amp; Retail. 16+ years across agency and client side — creating demand and converting it into sustainable revenue.
             </p>
-            <p className="text-xs mt-3" style={{ color: "var(--text-faint)" }}>— Super.me AI, 2025</p>
+            <p className="text-xs mt-3" style={{ color: "var(--text-faint)" }}>superme.ai/udhayp</p>
           </div>
         </div>
       </div>

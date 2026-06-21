@@ -2,24 +2,7 @@ import Link from "next/link";
 import { getMediumPosts, MediumPost } from "@/lib/medium";
 import { getAllEssays, Essay } from "@/lib/essays";
 
-const linkedInPosts = [
-  {
-    title: "Why the next wave of marketing talent will look nothing like today's",
-    excerpt: "The skills that made great marketers in 2015 are necessary but no longer sufficient. Here's what I'm looking for when I hire now.",
-    date: "2025-09-01",
-    href: "https://www.linkedin.com/in/udhayakumar-pasupathi/",
-    tags: ["Leadership", "AI"],
-    source: "linkedin" as const,
-  },
-  {
-    title: "Three things I learned running a 120-member renewals call centre",
-    excerpt: "Marketing and operations are not separate functions. Here's what leading a call centre taught me about the funnel.",
-    date: "2025-07-15",
-    href: "https://www.linkedin.com/in/udhayakumar-pasupathi/",
-    tags: ["Revenue", "Operations"],
-    source: "linkedin" as const,
-  },
-];
+const linkedInPosts: { title: string; excerpt: string; date: string; href: string; tags: string[]; source: "linkedin" }[] = [];
 
 const sourceColors: Record<string, string> = { site: "var(--accent)", medium: "#40A944", linkedin: "#0A66C2" };
 const sourceLabels: Record<string, string> = { site: "Essay", medium: "Medium", linkedin: "LinkedIn" };

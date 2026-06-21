@@ -35,8 +35,10 @@ export function getAllEssays(): Essay[] {
         tags: data.tags || [],
         readTime: data.readTime || "5 min read",
         source: "site" as const,
+        draft: !!data.draft,
       };
     })
+    .filter((e) => !e.draft)
     .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
 }
 

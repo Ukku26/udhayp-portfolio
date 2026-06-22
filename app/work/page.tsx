@@ -85,8 +85,8 @@ export default function WorkPage() {
       <div className="mb-16">
         <p className="text-xs font-mono tracking-widest mb-4" style={{ color: "var(--text-muted)" }}>WORK</p>
         <h1 className="font-black leading-tight mb-4" style={{ fontSize: "clamp(2rem, 5vw, 3.5rem)", color: "var(--text-primary)", letterSpacing: "-0.03em" }}>
-          16 years of outcomes,
-          <br />not job descriptions.
+          Where brand building
+          <br />meets revenue ownership.
         </h1>
         <p className="max-w-xl text-base" style={{ color: "var(--text-muted)" }}>
           What I built, what moved, what compounded — across BFSI, healthcare and retail.

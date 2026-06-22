@@ -10,11 +10,11 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Udhayakumar P — Marketing Systems Leader",
+  title: "Udhayakumar P — Marketing Leader · Brand, Revenue & Systems",
   description:
     "16 years building brand, growth and revenue systems for high-trust categories across BFSI, healthcare and retail. Head of Marketing · AI-native · Chennai.",
   openGraph: {
-    title: "Udhayakumar P — Marketing Systems Leader",
+    title: "Udhayakumar P — Marketing Leader · Brand, Revenue & Systems",
     description: "Brand strategist. Revenue system builder. AI implementer.",
     siteName: "Udhayakumar P",
     locale: "en_IN",
@@ -46,7 +46,7 @@ export default function RootLayout({
                 UDHAYAKUMAR P
               </p>
               <p className="text-xs mt-1" style={{ color: "var(--text-muted)" }}>
-                Marketing Systems Leader · Chennai, India
+                Marketing Leader · Brand, Revenue & Systems · Chennai, India
               </p>
             </div>
             <div className="flex flex-wrap gap-x-6 gap-y-2">

@@ -58,7 +58,7 @@ export default async function EssayPage({ params }: { params: Promise<{ slug: st
             <p className="text-xs font-mono tracking-widest mb-4" style={{ color: "var(--text-muted)" }}>ABOUT THE AUTHOR</p>
             <p className="font-bold text-sm mb-2" style={{ color: "var(--text-primary)" }}>Udhayakumar Pasupathi</p>
             <p className="text-xs leading-relaxed mb-4" style={{ color: "var(--text-muted)" }}>
-              Marketing systems leader with 16 years in BFSI, healthcare and retail. Currently AVP – Growth &amp; Retention (D2C) at Star Health Insurance.
+              Marketing leader · Brand, Revenue &amp; Systems. 16 years across BFSI, healthcare and retail.
             </p>
             <div className="flex flex-col gap-2">
               <a href="https://www.linkedin.com/in/udhayakumar-pasupathi/" target="_blank" rel="noopener noreferrer" className="text-xs link-accent">LinkedIn ↗</a>
